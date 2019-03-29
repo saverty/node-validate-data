@@ -1,39 +1,39 @@
 
-# NODE-VALIDATE-DATA
+# NODE-VALIDATA
 
   
 
 ## Quick start
 
- ### Installation
+  **Installation**
  
 
     npm install node-validata --save
 
- ### Validate email
+ **Validate email**
   
 
     var validata = require('node-validata');
 	validata.email('steve.averty1992@gmail.com');
 	
- ### Validate string
+ **Validate string**
   
 
     var validata = require('node-validata');
 	validata.string('Hello');
 	
- ### Validate integer
+**Validate integer**
 
     var validata = require('node-validata');
 	validata.integer(26);
 	
- ### Validate password
+**Validate password**
 
     var validata = require('node-validata');
     // 6 is the min length of password
 	validata.password('secret', 6);
 
- ### Validate firstname
+**Validate firstname**
 
     var validata = require('node-validata');
 	validata.firstname('steve');
