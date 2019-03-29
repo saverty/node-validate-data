@@ -30,7 +30,7 @@ exports.password = function(value, min) {
 }
 
 exports.firstname = function(value) {
-    var text = fs.readFileSync("./dataset/firstname.txt").toString('utf-8');;
+    var text = fs.readFileSync(__dirname+"/dataset/firstname.txt").toString('utf-8');;
     data = text.split("\n");
     if(value.length >= 3){
         if(data.indexOf(value) !== -1){
